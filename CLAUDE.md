@@ -246,7 +246,64 @@
 - 同日に複数学習しても対応可能
 - ファイルが自然にソートされる
 
-### 5. Git コミットと PR の作成
+### 5. _sidebar.md の更新（Web ページのナビゲーション）
+
+日次記録や学習ノートを追加した場合、`_sidebar.md` を更新して Web ページのサイドバーに反映します。
+
+#### 更新するタイミング
+
+- 日次記録を追加した場合
+- 学習ノート（shig または Ruby）を追加した場合
+
+#### 更新方法
+
+1. **`_sidebar.md` を開く**
+
+2. **日次記録を追加した場合**
+
+   ```markdown
+   * **日次記録**
+     * [2026-01-06](daily/2026-01-06.md)  ← 新しい日付を一番上に追加
+     * [2026-01-05](daily/2026-01-05.md)
+     * [2026-01-04](daily/2026-01-04.md)
+     ...
+   ```
+
+   - 新しい日付を**一番上**に追加（降順）
+
+3. **学習ノート（shig）を追加した場合**
+
+   ```markdown
+   * **学習ノート**
+     * **Sociomedia HIG**
+       * [006. New Topic](learning/sociomedia-hig/006-new-topic.md)  ← 新しいトピックを一番上に追加
+       * [005. Natural Mapping](learning/sociomedia-hig/005-natural-mapping.md)
+       ...
+   ```
+
+   - 連番とタイトルを記載
+   - 新しいトピックを**一番上**に追加（降順）
+
+4. **学習ノート（Ruby）を追加した場合**
+
+   ```markdown
+   * **学習ノート**
+     * **Ruby Array Methods**
+       * [006. new_method](learning/ruby-array-methods/006-new-method.md)  ← 新しいメソッドを一番上に追加
+       * [005. <<](learning/ruby-array-methods/005-left-shift.md)
+       ...
+   ```
+
+   - 連番とメソッド名を記載
+   - 新しいメソッドを**一番上**に追加（降順）
+
+#### 重要な注意点
+
+- **必ず更新する**: Web ページのナビゲーションに新しい記録が表示されるため
+- **降順で管理**: 新しいものが上に来るように配置
+- **タイトルは簡潔に**: サイドバーで見やすいように
+
+### 6. Git コミットと PR の作成
 
 作業が完了したら、変更をコミットして PR を作成します。
 
@@ -266,6 +323,8 @@
    # 学習ノートも作成した場合は追加
    git add learning/sociomedia-hig/005-example.md
    git add learning/ruby-array-methods/003-example.md
+   # _sidebar.md も必ず追加
+   git add _sidebar.md
 
    git commit -m "2026-01-05 の日次記録を追加"
    ```
@@ -322,6 +381,34 @@
 「今週のスクワット実施率は？」
 「1月に学んだRubyメソッドを一覧表示」
 ```
+
+## Web ページ化（Docsify）
+
+このプロジェクトは Docsify を使って Web ページとして閲覧できます。
+
+### アクセス方法
+
+**📖 [https://sugiwe.github.io/routine-2026/](https://sugiwe.github.io/routine-2026/)**
+
+### 特徴
+
+- **サイドバーナビゲーション**: 日次記録と学習ノートに簡単アクセス
+- **検索機能**: 過去の記録を全文検索
+- **見やすい UI**: Markdown が美しく整形された状態で表示
+- **コードハイライト**: Ruby のシンタックスハイライト対応
+- **コピーボタン**: コードブロックをワンクリックでコピー
+
+### 関連ファイル
+
+- `index.html`: Docsify の設定ファイル
+- `_sidebar.md`: サイドバーのナビゲーション（**要更新**）
+- `.nojekyll`: GitHub Pages 用（Jekyll を無効化）
+
+### _sidebar.md の重要性
+
+`_sidebar.md` は Web ページのナビゲーションを定義するファイルです。**日次記録や学習ノートを追加するたびに必ず更新してください**（詳細は「5. _sidebar.md の更新」を参照）。
+
+更新を忘れると、Web ページに新しい記録が表示されません。
 
 ---
 

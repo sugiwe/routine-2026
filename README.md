@@ -30,12 +30,25 @@ Claude Code を活用して、日々の習慣記録と学習ノートを効率�
   - class Array の Instance Methods を 1 日 1 つずつ読んでいく
   - https://docs.ruby-lang.org/en/4.0/Array.html
 
+## Web ページで閲覧
+
+このリポジトリは Docsify を使って Web ページとして閲覧できます。
+
+**📖 [https://sugiwe.github.io/routine-2026/](https://sugiwe.github.io/routine-2026/)**
+
+- サイドバーで日次記録や学習ノートに簡単アクセス
+- 検索機能で過去の記録を素早く検索
+- Markdown が見やすく整形された状態で表示
+
 ## ディレクトリ構成
 
 ```
 2026/
 ├── README.md           # このファイル
 ├── CLAUDE.md           # Claude Code 向けのプロジェクトガイド
+├── index.html          # Docsify 設定（Web ページ化）
+├── _sidebar.md         # サイドバーのナビゲーション
+├── .nojekyll           # GitHub Pages 用
 ├── daily/              # 日次記録
 │   ├── TEMPLATE.md     # 日次ファイルのテンプレート
 │   ├── 2026-01-01.md

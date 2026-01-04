@@ -1,0 +1,26 @@
+<!-- docs/_sidebar.md -->
+
+* [ホーム](/)
+* [プロジェクトガイド](CLAUDE.md)
+
+* **日次記録**
+  * [2026-01-05](daily/2026-01-05.md)
+  * [2026-01-04](daily/2026-01-04.md)
+  * [2026-01-03](daily/2026-01-03.md)
+  * [2026-01-02](daily/2026-01-02.md)
+  * [2026-01-01](daily/2026-01-01.md)
+
+* **学習ノート**
+  * **Sociomedia HIG**
+    * [005. Natural Mapping](learning/sociomedia-hig/005-natural-mapping.md)
+    * [004. Signifier](learning/sociomedia-hig/004-signifier.md)
+    * [003. Mental Model](learning/sociomedia-hig/003-mental-model.md)
+    * [002. Easy](learning/sociomedia-hig/002-easy.md)
+    * [001. Simple](learning/sociomedia-hig/001-simple.md)
+
+  * **Ruby Array Methods**
+    * [005. <<](learning/ruby-array-methods/005-left-shift.md)
+    * [004. -](learning/ruby-array-methods/004-minus.md)
+    * [003. +](learning/ruby-array-methods/003-plus.md)
+    * [002. *](learning/ruby-array-methods/002-asterisk.md)
+    * [001. &](learning/ruby-array-methods/001-ampersand.md)

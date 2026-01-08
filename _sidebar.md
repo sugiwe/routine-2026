@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-09](daily/2026-01-09.md)
   * [2026-01-08](daily/2026-01-08.md)
   * [2026-01-07](daily/2026-01-07.md)
   * [2026-01-06](daily/2026-01-06.md)
@@ -15,6 +16,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [009. Modelessness](learning/sociomedia-hig/009-modelessness.md)
     * [008. Direct Manipulation](learning/sociomedia-hig/008-direct-manipulation.md)
     * [007. User Control](learning/sociomedia-hig/007-user-control.md)
     * [006. Consistency](learning/sociomedia-hig/006-consistency.md)
@@ -25,6 +27,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [009. []=](learning/ruby-array-methods/009-brackets-equals.md)
     * [008. []](learning/ruby-array-methods/008-brackets.md)
     * [007. ==](learning/ruby-array-methods/007-equal-equal.md)
     * [006. <=>](learning/ruby-array-methods/006-spaceship.md)

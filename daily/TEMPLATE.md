@@ -28,7 +28,7 @@
 - URL: https://docs.ruby-lang.org/en/4.0/Array.html
 - メモ:
 
-## その他のメモ
+#### コード例・補足
 
 ```ruby
 #

@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-11](daily/2026-01-11.md)
   * [2026-01-10](daily/2026-01-10.md)
   * [2026-01-09](daily/2026-01-09.md)
   * [2026-01-08](daily/2026-01-08.md)
@@ -17,6 +18,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [011. Users' Language](learning/sociomedia-hig/011-users-language.md)
     * [010. Visual Gestalt](learning/sociomedia-hig/010-visual-gestalt.md)
     * [009. Modelessness](learning/sociomedia-hig/009-modelessness.md)
     * [008. Direct Manipulation](learning/sociomedia-hig/008-direct-manipulation.md)
@@ -29,6 +31,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [011. all?](learning/ruby-array-methods/011-all-question.md)
     * [010. |](learning/ruby-array-methods/010-pipe.md)
     * [009. []=](learning/ruby-array-methods/009-brackets-equals.md)
     * [008. []](learning/ruby-array-methods/008-brackets.md)

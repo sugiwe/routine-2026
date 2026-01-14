@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-15](daily/2026-01-15.md)
   * [2026-01-14](daily/2026-01-14.md)
   * [2026-01-13](daily/2026-01-13.md)
   * [2026-01-12](daily/2026-01-12.md)
@@ -21,6 +22,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [015. Avoid Errors](learning/sociomedia-hig/015-avoid-errors.md)
     * [014. Precomputation](learning/sociomedia-hig/014-precomputation.md)
     * [013. Constraints](learning/sociomedia-hig/013-constraints.md)
     * [012. Minimize the user's memory load](learning/sociomedia-hig/012-minimize-memory-load.md)
@@ -37,6 +39,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [015. at](learning/ruby-array-methods/015-at.md)
     * [014. assoc](learning/ruby-array-methods/014-assoc.md)
     * [013. append](learning/ruby-array-methods/013-append.md)
     * [012. any?](learning/ruby-array-methods/012-any-question.md)

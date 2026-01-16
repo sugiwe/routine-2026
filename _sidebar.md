@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-17](daily/2026-01-17.md)
   * [2026-01-16](daily/2026-01-16.md)
   * [2026-01-15](daily/2026-01-15.md)
   * [2026-01-14](daily/2026-01-14.md)
@@ -23,6 +24,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [017. Hick's Law](learning/sociomedia-hig/017-hicks-law.md)
     * [016. Fitts' Law](learning/sociomedia-hig/016-fitts-law.md)
     * [015. Avoid Errors](learning/sociomedia-hig/015-avoid-errors.md)
     * [014. Precomputation](learning/sociomedia-hig/014-precomputation.md)
@@ -41,6 +43,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [017. bsearch_index](learning/ruby-array-methods/017-bsearch-index.md)
     * [016. bsearch](learning/ruby-array-methods/016-bsearch.md)
     * [015. at](learning/ruby-array-methods/015-at.md)
     * [014. assoc](learning/ruby-array-methods/014-assoc.md)

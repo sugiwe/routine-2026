@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-19](daily/2026-01-19.md)
   * [2026-01-18](daily/2026-01-18.md)
   * [2026-01-17](daily/2026-01-17.md)
   * [2026-01-16](daily/2026-01-16.md)
@@ -25,6 +26,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [019. Task Coherence](learning/sociomedia-hig/019-task-coherence.md)
     * [018. Tesler's Law](learning/sociomedia-hig/018-teslers-law.md)
     * [017. Hick's Law](learning/sociomedia-hig/017-hicks-law.md)
     * [016. Fitts' Law](learning/sociomedia-hig/016-fitts-law.md)
@@ -45,6 +47,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [019. collect](learning/ruby-array-methods/019-collect.md)
     * [018. clear](learning/ruby-array-methods/018-clear.md)
     * [017. bsearch_index](learning/ruby-array-methods/017-bsearch-index.md)
     * [016. bsearch](learning/ruby-array-methods/016-bsearch.md)

@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-22](daily/2026-01-22.md)
   * [2026-01-21](daily/2026-01-21.md)
   * [2026-01-20](daily/2026-01-20.md)
   * [2026-01-19](daily/2026-01-19.md)
@@ -28,6 +29,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [022. Shortcuts](learning/sociomedia-hig/022-shortcuts.md)
     * [021. Persuasion](learning/sociomedia-hig/021-persuasion.md)
     * [020. Optimize for the Major Tasks](learning/sociomedia-hig/020-optimize-for-major-tasks.md)
     * [019. Task Coherence](learning/sociomedia-hig/019-task-coherence.md)
@@ -51,6 +53,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [022. compact](learning/ruby-array-methods/022-compact.md)
     * [021. combination](learning/ruby-array-methods/021-combination.md)
     * [020. collect!](learning/ruby-array-methods/020-collect-exclamation.md)
     * [019. collect](learning/ruby-array-methods/019-collect.md)

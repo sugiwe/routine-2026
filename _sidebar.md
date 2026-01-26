@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-26](daily/2026-01-26.md)
   * [2026-01-25](daily/2026-01-25.md)
   * [2026-01-24](daily/2026-01-24.md)
   * [2026-01-23](daily/2026-01-23.md)
@@ -32,6 +33,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [026. Noun-Verb Paradigm](learning/sociomedia-hig/026-noun-verb-paradigm.md)
     * [025. Object Reflects Its State](learning/sociomedia-hig/025-object-reflects-its-state.md)
     * [024. Object Representation by Views](learning/sociomedia-hig/024-object-representation-by-views.md)
     * [023. Object-Based](learning/sociomedia-hig/023-object-based.md)
@@ -59,6 +61,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [026. cycle](learning/ruby-array-methods/026-cycle.md)
     * [025. count](learning/ruby-array-methods/025-count.md)
     * [024. concat](learning/ruby-array-methods/024-concat.md)
     * [023. compact!](learning/ruby-array-methods/023-compact-bang.md)

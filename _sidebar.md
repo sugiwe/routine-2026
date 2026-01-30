@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-01-31](daily/2026-01-31.md)
   * [2026-01-30](daily/2026-01-30.md)
   * [2026-01-29](daily/2026-01-29.md)
   * [2026-01-28](daily/2026-01-28.md)
@@ -37,6 +38,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [031. Visually Show What, Textually Tell Which](learning/sociomedia-hig/031-visually-show-what-textually-tell-which.md)
     * [030. Pen Near The Paper](learning/sociomedia-hig/030-pen-near-the-paper.md)
     * [029. Automate The Single Option](learning/sociomedia-hig/029-automate-the-single-option.md)
     * [028. Information Rather Than Data](learning/sociomedia-hig/028-information-rather-than-data.md)
@@ -69,6 +71,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [031. difference](learning/ruby-array-methods/031-difference.md)
     * [030. detect](learning/ruby-array-methods/030-detect.md)
     * [029. delete_if](learning/ruby-array-methods/029-delete_if.md)
     * [028. delete_at](learning/ruby-array-methods/028-delete_at.md)

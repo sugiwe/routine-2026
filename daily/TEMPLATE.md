@@ -21,12 +21,14 @@
 - [ ] 今日のトピック:
 - URL:
 - メモ:
+- 詳細ノート:
 
 ### Ruby 4.0 Documentation - Array Instance Methods
 
 - [ ] 今日のメソッド:
 - URL: https://docs.ruby-lang.org/en/4.0/Array.html
 - メモ:
+- 詳細ノート:
 
 #### コード例・補足
 

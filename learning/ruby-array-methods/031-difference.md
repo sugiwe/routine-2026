@@ -2,6 +2,7 @@
 
 - 日付: 2026-01-31
 - URL: https://docs.ruby-lang.org/en/4.0/Array.html#method-i-difference
+- daily 記録: [daily/2026-01-31.md](../../daily/2026-01-31.md)
 
 ## 基本情報
 
@@ -11,13 +12,13 @@ difference(*other_arrays = []) → new_array
 
 指定された配列（`other_arrays`）のいずれにも存在しない要素のみを、`self` から抽出して新しい配列として返します。要素の比較には `eql?` が用いられ、`self` の順序が保持されます。
 
-## daily からの記録
+## ユーザーの学習記録（daily より）
 
-### メモ
+### 第一印象のメモ
 
 `difference(*other_arrays = []) → new_array`
 
-### コード例・補足
+### コード例
 
 ```ruby
 # Returns a new array containing only those elements from self that are not found in any of the given other_arrays; items are compared using eql?; order from self is preserved:

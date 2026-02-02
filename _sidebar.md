@@ -4,6 +4,7 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * [2026-02-02](daily/2026-02-02.md)
   * [2026-02-01](daily/2026-02-01.md)
   * [2026-01-31](daily/2026-01-31.md)
   * [2026-01-30](daily/2026-01-30.md)
@@ -39,6 +40,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [033. ナビゲーション項目は名詞にする](learning/sociomedia-hig/033-navigation-items-as-nouns.md)
     * [032. Present Prerequisites First](learning/sociomedia-hig/032-present-prerequisites-first.md)
     * [031. Visually Show What, Textually Tell Which](learning/sociomedia-hig/031-visually-show-what-textually-tell-which.md)
     * [030. Pen Near The Paper](learning/sociomedia-hig/030-pen-near-the-paper.md)
@@ -73,6 +75,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [033. drop](learning/ruby-array-methods/033-drop.md)
     * [032. dig](learning/ruby-array-methods/032-dig.md)
     * [031. difference](learning/ruby-array-methods/031-difference.md)
     * [030. detect](learning/ruby-array-methods/030-detect.md)

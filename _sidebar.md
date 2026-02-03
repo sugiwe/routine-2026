@@ -41,6 +41,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [034. アイコンは名詞または形容詞を表す](learning/sociomedia-hig/034-icons-represent-nouns-or-adjectives.md)
     * [033. ナビゲーション項目は名詞にする](learning/sociomedia-hig/033-navigation-items-as-nouns.md)
     * [032. Present Prerequisites First](learning/sociomedia-hig/032-present-prerequisites-first.md)
     * [031. Visually Show What, Textually Tell Which](learning/sociomedia-hig/031-visually-show-what-textually-tell-which.md)
@@ -76,6 +77,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [034. drop_while](learning/ruby-array-methods/034-drop_while.md)
     * [033. drop](learning/ruby-array-methods/033-drop.md)
     * [032. dig](learning/ruby-array-methods/032-dig.md)
     * [031. difference](learning/ruby-array-methods/031-difference.md)

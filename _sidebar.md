@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-05](daily/2026-02-05.md)
     * [2026-02-04](daily/2026-02-04.md)
     * [2026-02-03](daily/2026-02-03.md)
     * [2026-02-02](daily/2026-02-02.md)
@@ -44,6 +45,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [036. ゼロ・ワン・インフィニティ](learning/sociomedia-hig/036-zero-one-infinity.md)
     * [035. データをバインドする](learning/sociomedia-hig/035-data-binding.md)
     * [034. アイコンは名詞または形容詞を表す](learning/sociomedia-hig/034-icons-represent-nouns-or-adjectives.md)
     * [033. ナビゲーション項目は名詞にする](learning/sociomedia-hig/033-navigation-items-as-nouns.md)
@@ -81,6 +83,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [036. each_index](learning/ruby-array-methods/036-each_index.md)
     * [035. each](learning/ruby-array-methods/035-each.md)
     * [034. drop_while](learning/ruby-array-methods/034-drop_while.md)
     * [033. drop](learning/ruby-array-methods/033-drop.md)

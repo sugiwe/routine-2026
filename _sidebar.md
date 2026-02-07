@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-07](daily/2026-02-07.md)
     * [2026-02-06](daily/2026-02-06.md)
     * [2026-02-05](daily/2026-02-05.md)
     * [2026-02-04](daily/2026-02-04.md)
@@ -46,6 +47,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [038. ユーザーが入力したものはユーザーのもの](learning/sociomedia-hig/038-user-owns-inputs.md)
     * [037. すべての操作可能な要素は意味を持つ](learning/sociomedia-hig/037-every-control-has-meaning.md)
     * [036. ゼロ・ワン・インフィニティ](learning/sociomedia-hig/036-zero-one-infinity.md)
     * [035. データをバインドする](learning/sociomedia-hig/035-data-binding.md)
@@ -85,6 +87,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [038. eql?](learning/ruby-array-methods/038-eql.md)
     * [037. empty?](learning/ruby-array-methods/037-empty.md)
     * [036. each_index](learning/ruby-array-methods/036-each_index.md)
     * [035. each](learning/ruby-array-methods/035-each.md)

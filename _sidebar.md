@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-11](daily/2026-02-11.md)
     * [2026-02-10](daily/2026-02-10.md)
     * [2026-02-09](daily/2026-02-09.md)
     * [2026-02-08](daily/2026-02-08.md)
@@ -50,6 +51,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [042. よいデフォルト](learning/sociomedia-hig/042-good-defaults.md)
     * [041. 操作の流れを作る](learning/sociomedia-hig/041-flow-of-operation.md)
     * [040. 入力フォームにはストーリー性を持たせる](learning/sociomedia-hig/040-give-form-a-story.md)
     * [039. 整合性を損なうような操作をユーザーに求めない](learning/sociomedia-hig/039-dont-let-inconsistent-input.md)
@@ -93,6 +95,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [042. filter](learning/ruby-array-methods/042-filter.md)
     * [041. fill](learning/ruby-array-methods/041-fill.md)
     * [040. fetch_values](learning/ruby-array-methods/040-fetch_values.md)
     * [039. fetch](learning/ruby-array-methods/039-fetch.md)

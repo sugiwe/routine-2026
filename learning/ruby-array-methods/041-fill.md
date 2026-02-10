@@ -28,8 +28,8 @@ fill(range) {|index| ... } → self
 ```ruby
 # fill(object, start = nil, count = nil) → self
 # fill(object, range) → self
-# fill(start = nil, count = nil) {|element| ... } → self
-# fill(range) {|element| ... } → self
+# fill(start = nil, count = nil) {|index| ... } → self
+# fill(range) {|index| ... } → self
 
 # Replaces selected elements in self; may add elements to self; always returns self (never a new array).
 # 選択された要素を自身の中の要素と置き換えます。また、要素を自身に追加することもあります。常に自身（新しい配列ではない）を返します。
@@ -38,24 +38,24 @@ fill(range) {|index| ... } → self
 # 要約:
 
 # Non-negative start.
-['a', 'b', 'c', 'd'].fill('-', 1, 2)          # => ["a", "-", "-", "d"]
-['a', 'b', 'c', 'd'].fill(1, 2) {|e| e.to_s } # => ["a", "1", "2", "d"]
+['a', 'b', 'c', 'd'].fill('-', 1, 2)             # => ["a", "-", "-", "d"]
+['a', 'b', 'c', 'd'].fill(1, 2) {|i| i.to_s }    # => ["a", "1", "2", "d"]
 
 # Extends with specified values if necessary.
-['a', 'b', 'c', 'd'].fill('-', 3, 2)          # => ["a", "b", "c", "-", "-"]
-['a', 'b', 'c', 'd'].fill(3, 2) {|e| e.to_s } # => ["a", "b", "c", "3", "4"]
+['a', 'b', 'c', 'd'].fill('-', 3, 2)             # => ["a", "b", "c", "-", "-"]
+['a', 'b', 'c', 'd'].fill(3, 2) {|i| i.to_s }    # => ["a", "b", "c", "3", "4"]
 
 # Fills with nils if necessary.
-['a', 'b', 'c', 'd'].fill('-', 6, 2)          # => ["a", "b", "c", "d", nil, nil, "-", "-"]
-['a', 'b', 'c', 'd'].fill(6, 2) {|e| e.to_s } # => ["a", "b", "c", "d", nil, nil, "6", "7"]
+['a', 'b', 'c', 'd'].fill('-', 6, 2)             # => ["a", "b", "c", "d", nil, nil, "-", "-"]
+['a', 'b', 'c', 'd'].fill(6, 2) {|i| i.to_s }    # => ["a", "b", "c", "d", nil, nil, "6", "7"]
 
 # For negative start, counts backwards from the end.
-['a', 'b', 'c', 'd'].fill('-', -3, 3)          # => ["a", "-", "-", "-"]
-['a', 'b', 'c', 'd'].fill(-3, 3) {|e| e.to_s } # => ["a", "1", "2", "3"]
+['a', 'b', 'c', 'd'].fill('-', -3, 3)            # => ["a", "-", "-", "-"]
+['a', 'b', 'c', 'd'].fill(-3, 3) {|i| i.to_s }   # => ["a", "1", "2", "3"]
 
 # Range.
-['a', 'b', 'c', 'd'].fill('-', 1..2)          # => ["a", "-", "-", "d"]
-['a', 'b', 'c', 'd'].fill(1..2) {|e| e.to_s } # => ["a", "1", "2", "d"]
+['a', 'b', 'c', 'd'].fill('-', 1..2)             # => ["a", "-", "-", "d"]
+['a', 'b', 'c', 'd'].fill(1..2) {|i| i.to_s }    # => ["a", "1", "2", "d"]
 ```
 
 ## 深掘り・補足

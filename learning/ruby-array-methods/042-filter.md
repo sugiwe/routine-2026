@@ -14,6 +14,7 @@ filter → new_enumerator
 `Array#filter` は、配列の要素をブロック条件に基づいてフィルタリングし、条件に合致した要素のみを含む新しい配列を返すメソッドです。
 
 **エイリアス関係:**
+
 - `Array#filter` は `Array#select` のエイリアス
 - `Array#select` は `Array#find_all` のエイリアスでもある
 - つまり、`filter`、`select`、`find_all` はすべて同じ動作をする
@@ -22,7 +23,7 @@ filter → new_enumerator
 
 ### 第一印象のメモ
 
-select のエイリアスか。あと finde_all のエイリアスでもあるか。detect のエイリアスは find だったかな？
+select のエイリアスか。あと find_all のエイリアスでもあるか。detect のエイリアスは find だったかな？
 
 ### コード例
 
@@ -33,7 +34,7 @@ select のエイリアスか。あと finde_all のエイリアスでもある�
 # With a block given, calls the block with each element of self; returns a new array containing those elements of self for which the block returns a truthy value:
 # ブロックが与えられた場合、自身の各要素に対してブロックを呼び出し、ブロックが真と評価された要素のみを含む新しい配列を返します。
 a = [:foo, 'bar', 2, :bam]
-a.select {|element| element.to_s.start_with?('b') }
+a.filter {|element| element.to_s.start_with?('b') }
 # => ["bar", :bam]
 
 # With no block given, returns a new Enumerator.
@@ -63,6 +64,7 @@ array.find_all {|x| x > 5 }
 ```
 
 **使い分けの慣習:**
+
 - `filter`: 関数型プログラミングに慣れた開発者や、JavaScript などの他言語からの移行者に馴染みやすい
 - `select`: Ruby で最も一般的に使われる表現
 - `find_all`: やや古い表現だが、「すべて見つける」という意味が明確

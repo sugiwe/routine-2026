@@ -38,7 +38,7 @@ filter! → new_enumerator
 # Returns self if any elements were removed:
 # 要素が削除された場合、自身を返します。
 a = [:foo, 'bar', 2, :bam]
-a.select! {|element| element.to_s.start_with?('b') } # => ["bar", :bam]
+a.filter! {|element| element.to_s.start_with?('b') } # => ["bar", :bam]
 a # => ["bar", :bam]
 
 # Returns nil if no elements were removed.
@@ -101,10 +101,10 @@ end
 
 ### 非破壊的メソッドとの比較
 
-| メソッド | 破壊的 | 戻り値 | 用途 |
-|---------|-------|-------|------|
-| `filter` / `select` | ❌ | 新しい配列 | 元の配列を保持したい場合 |
-| `filter!` / `select!` | ✅ | self or nil | 元の配列を変更したい場合 |
+| メソッド              | 破壊的 | 戻り値      | 用途                     |
+| --------------------- | ------ | ----------- | ------------------------ |
+| `filter` / `select`   | ❌     | 新しい配列  | 元の配列を保持したい場合 |
+| `filter!` / `select!` | ✅     | self or nil | 元の配列を変更したい場合 |
 
 ```ruby
 # 非破壊的

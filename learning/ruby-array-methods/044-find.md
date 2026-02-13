@@ -15,35 +15,6 @@ find(if_none_proc = nil) → enumerator
 
 **別名:** `detect`
 
-## ユーザーの学習記録（daily より）
-
-### 第一印象のメモ
-
-if_none_procという名前がよくわからないけど、引数にprocを入れればいいってことなのかな？　あと、detectのエイリアス。
-
-### コード例
-
-```ruby
-# find(if_none_proc = nil) {|element| ... } → object or nil
-# find(if_none_proc = nil) → enumerator
-
-# Returns the first element for which the block returns a truthy value.
-# ブロックが真値を返した最初の要素を返します。
-# With a block given, calls the block with successive elements of the array; returns the first element for which the block returns a truthy value:
-# ブロックが与えられた場合、配列の要素を順にブロックに渡し、ブロックが真値を返した最初の要素を返します。
-[1, 3, 5].find {|element| element > 2}  # => 3
-
-# If no such element is found, calls if_none_proc and returns its return value.
-# 該当する要素が見つからない場合は、if_none_procを呼び出し、その戻り値を返します。
-[1, 3, 5].find {|element| element > 12}            # => nil
-[1, 3, 5].find(proc {-1}) {|element| element > 12} # => -1
-
-# With no block given, returns an Enumerator.
-# ブロックが与えられない場合は、`Enumerator`を返します。
-
-# Also aliased as: detect
-```
-
 ## 深掘り・補足
 
 ### if_none_proc パラメータの使い方
@@ -139,13 +110,13 @@ first_divisible_by_3_and_even = numbers.find {|n| n % 3 == 0 && n.even?}
 
 ### 関連メソッドとの比較
 
-| メソッド | 戻り値 | 用途 |
-|---------|--------|------|
-| `find` / `detect` | 最初の一致する要素 | 単一の要素を見つける |
-| `select` / `filter` | 一致する全要素の配列 | 複数の要素を抽出 |
-| `find_all` | `select` のエイリアス | 複数の要素を抽出 |
-| `find_index` | 最初の一致する要素のインデックス | 位置を知りたい場合 |
-| `any?` | 真偽値 | 存在確認のみ |
+| メソッド            | 戻り値                           | 用途                 |
+| ------------------- | -------------------------------- | -------------------- |
+| `find` / `detect`   | 最初の一致する要素               | 単一の要素を見つける |
+| `select` / `filter` | 一致する全要素の配列             | 複数の要素を抽出     |
+| `find_all`          | `select` のエイリアス            | 複数の要素を抽出     |
+| `find_index`        | 最初の一致する要素のインデックス | 位置を知りたい場合   |
+| `any?`              | 真偽値                           | 存在確認のみ         |
 
 ### 注意点
 

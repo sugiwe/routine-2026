@@ -32,6 +32,8 @@ flatten(depth = nil) → new_array
 
 # With non-negative integer argument depth, flattens recursively through depth levels:
 # 負でない整数引数 `depth` を指定すると、`depth` のレベルまで再帰的に平坦化します。
+require 'set'
+
 a = [ 0, [ 1, [2, 3], 4 ], 5, {foo: 0}, Set.new([6, 7]) ]
 a              # => [0, [1, [2, 3], 4], 5, {:foo=>0}, #<Set: {6, 7}>]
 a.flatten(0)   # => [0, [1, [2, 3], 4], 5, {:foo=>0}, #<Set: {6, 7}>]
@@ -115,6 +117,8 @@ data.flatten(1)
 #### 1. 配列以外のオブジェクトは平坦化されない
 
 ```ruby
+require 'set'
+
 a = [1, [2, 3], {foo: 0}, Set.new([4, 5])]
 a.flatten
 # => [1, 2, 3, {:foo=>0}, #<Set: {4, 5}>]

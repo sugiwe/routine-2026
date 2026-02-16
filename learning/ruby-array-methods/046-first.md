@@ -119,7 +119,7 @@ puts "最古のユーザー: #{first_user.name}" if first_user
 ```ruby
 logs = read_log_file()
 
-# 最新 5 件のログを表示
+# 銭湯 5 件のログを表示
 logs.first(5).each do |log|
   puts log
 end
@@ -149,13 +149,13 @@ end
 
 ### 関連メソッドとの比較
 
-| メソッド | 動作 | 戻り値の型 | 空配列の場合 |
-|----------|------|------------|--------------|
-| `first` | 先頭要素 | 要素 or nil | nil |
-| `first(n)` | 先頭 n 個 | Array | [] |
-| `[0]` | インデックス 0 | 要素 or nil | nil |
-| `take(n)` | 先頭 n 個 | Array（常に） | [] |
-| `last` | 末尾要素 | 要素 or nil | nil |
+| メソッド   | 動作           | 戻り値の型    | 空配列の場合 |
+| ---------- | -------------- | ------------- | ------------ |
+| `first`    | 先頭要素       | 要素 or nil   | nil          |
+| `first(n)` | 先頭 n 個      | Array         | []           |
+| `[0]`      | インデックス 0 | 要素 or nil   | nil          |
+| `take(n)`  | 先頭 n 個      | Array（常に） | []           |
+| `last`     | 末尾要素       | 要素 or nil   | nil          |
 
 #### `first` vs `[0]`
 
@@ -239,6 +239,7 @@ large_arr.first  # 同じく高速
 - `[0]` や `take` との違いを理解して使い分ける
 
 **使い分けの目安**:
+
 - 最初の 1 要素だけ欲しい → `first`
 - 最初の n 要素が欲しい → `first(n)` または `take(n)`
 - 最初の要素を削除したい → `shift`

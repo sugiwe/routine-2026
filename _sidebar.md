@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-15](daily/2026-02-15.md)
     * [2026-02-14](daily/2026-02-14.md)
     * [2026-02-13](daily/2026-02-13.md)
     * [2026-02-12](daily/2026-02-12.md)
@@ -54,6 +55,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [046. 入力欄を構造化する](learning/sociomedia-hig/046-structure-input-controls.md)
     * [045. 値を入力させるのではなく結果を選ばせる](learning/sociomedia-hig/045-results-rather-than-values.md)
     * [044. 選択肢の文言は肯定文にする](learning/sociomedia-hig/044-affirmative-choice-labels.md)
     * [043. 制限コントロールを活用する](learning/sociomedia-hig/043-bounded-controls.md)
@@ -101,6 +103,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [046. first](learning/ruby-array-methods/046-first.md)
     * [045. find_index](learning/ruby-array-methods/045-find-index.md)
     * [044. find](learning/ruby-array-methods/044-find.md)
     * [043. filter!](learning/ruby-array-methods/043-filter-bang.md)

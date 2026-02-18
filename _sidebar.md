@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-19](daily/2026-02-19.md)
     * [2026-02-18](daily/2026-02-18.md)
     * [2026-02-17](daily/2026-02-17.md)
     * [2026-02-16](daily/2026-02-16.md)
@@ -58,6 +59,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [050. ユーザーに厳密さを求めない](learning/sociomedia-hig/050-dont-require-accuracy.md)
     * [049. フリップフロップ問題を避ける](learning/sociomedia-hig/049-avoid-flip-flop.md)
     * [048. ラジオボタンは単数選択、チェックボックスはオンオフ](learning/sociomedia-hig/048-radio-button-checkbox.md)
     * [047. デフォルトボタンには具体的な動詞を用いる](learning/sociomedia-hig/047-specific-verb-for-default-button-title.md)
@@ -109,6 +111,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [050. index](learning/ruby-array-methods/050-index.md)
     * [049. include?](learning/ruby-array-methods/049-include.md)
     * [048. freeze](learning/ruby-array-methods/048-freeze.md)
     * [047. flatten](learning/ruby-array-methods/047-flatten.md)

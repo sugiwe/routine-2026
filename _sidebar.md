@@ -60,6 +60,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [051. 入力サジェスチョンを提示する](learning/sociomedia-hig/051-input-suggestion.md)
     * [050. ユーザーに厳密さを求めない](learning/sociomedia-hig/050-dont-require-accuracy.md)
     * [049. フリップフロップ問題を避ける](learning/sociomedia-hig/049-avoid-flip-flop.md)
     * [048. ラジオボタンは単数選択、チェックボックスはオンオフ](learning/sociomedia-hig/048-radio-button-checkbox.md)
@@ -112,6 +113,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [051. initialize_copy](learning/ruby-array-methods/051-initialize-copy.md)
     * [050. index](learning/ruby-array-methods/050-index.md)
     * [049. include?](learning/ruby-array-methods/049-include.md)
     * [048. freeze](learning/ruby-array-methods/048-freeze.md)

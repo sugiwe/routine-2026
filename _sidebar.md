@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-22](daily/2026-02-22.md)
     * [2026-02-21](daily/2026-02-21.md)
     * [2026-02-20](daily/2026-02-20.md)
     * [2026-02-19](daily/2026-02-19.md)
@@ -61,6 +62,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [053. プロパティの選択肢でプレビューを見せる](learning/sociomedia-hig/053-option-previews.md)
     * [052. スクロール画面では続きがありそうに見せる](learning/sociomedia-hig/052-avoid-false-bottom.md)
     * [051. 入力サジェスチョンを提示する](learning/sociomedia-hig/051-input-suggestion.md)
     * [050. ユーザーに厳密さを求めない](learning/sociomedia-hig/050-dont-require-accuracy.md)
@@ -115,6 +117,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [053. inspect](learning/ruby-array-methods/053-inspect.md)
     * [052. insert](learning/ruby-array-methods/052-insert.md)
     * [051. initialize_copy](learning/ruby-array-methods/051-initialize-copy.md)
     * [050. index](learning/ruby-array-methods/050-index.md)

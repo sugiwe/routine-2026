@@ -46,11 +46,12 @@ arr.inspect  # => "[1, 2, 3]"
 arr.to_s     # => "[1, 2, 3]"
 
 # 他のクラスでは異なる場合も
-time = Time.now
-time.inspect  # => "2026-02-22 10:30:45 +0900"
-time.to_s     # => "2026-02-22 10:30:45 +0900"
+# 例えば String クラスでは挙動が異なる
+str = "hello"
+str.inspect  # => "\"hello\""
+str.to_s     # => "hello"
 
-# Hashでも同様
+# 一方、HashではArrayと同様に同じ結果になる
 hash = {a: 1, b: 2}
 hash.inspect  # => "{:a=>1, :b=>2}"
 hash.to_s     # => "{:a=>1, :b=>2}"

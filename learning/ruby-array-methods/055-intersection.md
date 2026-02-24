@@ -149,11 +149,16 @@ required_roles_1 = ["admin", "editor"]
 required_roles_2 = ["editor", "moderator"]
 
 # すべての必要な役割を持っているか
-user_roles.intersection(required_roles_1).size == required_roles_1.size
+# 注意: required_roles に重複がある場合は uniq.size と比較する必要がある
+user_roles.intersection(required_roles_1).size == required_roles_1.uniq.size
 # => true
 
-user_roles.intersection(required_roles_2).size == required_roles_2.size
+user_roles.intersection(required_roles_2).size == required_roles_2.uniq.size
 # => false  # moderator がない
+
+# あるいは、より明示的に差分で判定
+(required_roles_1 - user_roles).empty?  # => true
+(required_roles_2 - user_roles).empty?  # => false
 ```
 
 ### 関連メソッドとの比較

@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-24](daily/2026-02-24.md)
     * [2026-02-23](daily/2026-02-23.md)
     * [2026-02-22](daily/2026-02-22.md)
     * [2026-02-21](daily/2026-02-21.md)
@@ -63,6 +64,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [055. エラー表示は建設的にする](learning/sociomedia-hig/055-constructive-error-indications.md)
     * [054. フールプルーフよりフェールセーフ](learning/sociomedia-hig/054-fail-safe-rather-than-fool-proof.md)
     * [053. プロパティの選択肢でプレビューを見せる](learning/sociomedia-hig/053-option-previews.md)
     * [052. スクロール画面では続きがありそうに見せる](learning/sociomedia-hig/052-avoid-false-bottom.md)
@@ -119,6 +121,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [055. intersection](learning/ruby-array-methods/055-intersection.md)
     * [054. intersect?](learning/ruby-array-methods/054-intersect.md)
     * [053. inspect](learning/ruby-array-methods/053-inspect.md)
     * [052. insert](learning/ruby-array-methods/052-insert.md)

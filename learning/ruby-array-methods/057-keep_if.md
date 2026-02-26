@@ -30,6 +30,7 @@ keep_if → new_enumerator
 # ブロックが与えられた場合、自身の各要素に対してブロックを呼び出し、ブロックが真値を返さなかった要素は自身から削除します。
 a = [:foo, 'bar', 2, :bam]
 a.keep_if {|element| element.to_s.start_with?('b') } # => ["bar", :bam]
+a # => ["bar", :bam]
 
 # With no block given, returns a new Enumerator.
 ```
@@ -56,6 +57,7 @@ arr
 ### ユースケース
 
 1. **条件フィルタリング（破壊的）**
+
 ```ruby
 users = [{name: 'Alice', active: true}, {name: 'Bob', active: false}, {name: 'Carol', active: true}]
 users.keep_if {|user| user[:active] }
@@ -63,6 +65,7 @@ users.keep_if {|user| user[:active] }
 ```
 
 2. **複雑な条件での絞り込み**
+
 ```ruby
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers.keep_if {|n| n.even? && n > 4 }
@@ -70,6 +73,7 @@ numbers.keep_if {|n| n.even? && n > 4 }
 ```
 
 3. **型による選別**
+
 ```ruby
 mixed = [1, 'two', 3, 'four', 5]
 mixed.keep_if {|item| item.is_a?(Integer) }
@@ -94,11 +98,11 @@ arr2.delete_if {|a| a < 4}
 
 #### `keep_if` vs `select` / `select!`
 
-| メソッド | 破壊的 | 戻り値 |
-|---------|--------|--------|
-| `keep_if` | ✓ | self |
-| `select!` | ✓ | self または nil |
-| `select` | ✗ | 新しい配列 |
+| メソッド  | 破壊的 | 戻り値          |
+| --------- | ------ | --------------- |
+| `keep_if` | ✓      | self            |
+| `select!` | ✓      | self または nil |
+| `select`  | ✗      | 新しい配列      |
 
 ```ruby
 original = [1, 2, 3, 4, 5]

@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年2月**
+    * [2026-02-28](daily/2026-02-28.md)
     * [2026-02-27](daily/2026-02-27.md)
     * [2026-02-26](daily/2026-02-26.md)
     * [2026-02-25](daily/2026-02-25.md)
@@ -67,6 +68,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [059. ウェイファインディング](learning/sociomedia-hig/059-wayfinding.md)
     * [058. ガッツを見せる](learning/sociomedia-hig/058-show-guts.md)
     * [057. 黙って実行する](learning/sociomedia-hig/057-do-dont-ask.md)
     * [056. 可能性と確率を区別する](learning/sociomedia-hig/056-segregate-possible-from-probable.md)
@@ -127,6 +129,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [059. length](learning/ruby-array-methods/059-length.md)
     * [058. last](learning/ruby-array-methods/058-last.md)
     * [057. keep_if](learning/ruby-array-methods/057-keep_if.md)
     * [056. join](learning/ruby-array-methods/056-join.md)

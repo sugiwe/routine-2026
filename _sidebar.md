@@ -4,6 +4,8 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * **2026年3月**
+    * [2026-03-01](daily/2026-03-01.md)
   * **2026年2月**
     * [2026-02-28](daily/2026-02-28.md)
     * [2026-02-27](daily/2026-02-27.md)
@@ -68,6 +70,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [060. エスケープハッチ (Escape Hatch)](learning/sociomedia-hig/060-escape-hatch.md)
     * [059. ウェイファインディング](learning/sociomedia-hig/059-wayfinding.md)
     * [058. ガッツを見せる](learning/sociomedia-hig/058-show-guts.md)
     * [057. 黙って実行する](learning/sociomedia-hig/057-do-dont-ask.md)
@@ -129,6 +132,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [060. map](learning/ruby-array-methods/060-map.md)
     * [059. length](learning/ruby-array-methods/059-length.md)
     * [058. last](learning/ruby-array-methods/058-last.md)
     * [057. keep_if](learning/ruby-array-methods/057-keep_if.md)

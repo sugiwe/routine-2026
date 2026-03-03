@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-03](daily/2026-03-03.md)
     * [2026-03-02](daily/2026-03-02.md)
     * [2026-03-01](daily/2026-03-01.md)
   * **2026年2月**
@@ -71,6 +72,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [062. 回答の先送り (Deferred Choices)](learning/sociomedia-hig/062-deferred-choices.md)
     * [061. 即座の喜びを与える (Instant Gratification)](learning/sociomedia-hig/061-instant-gratification.md)
     * [060. エスケープハッチ (Escape Hatch)](learning/sociomedia-hig/060-escape-hatch.md)
     * [059. ウェイファインディング](learning/sociomedia-hig/059-wayfinding.md)
@@ -134,6 +136,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [062. min](learning/ruby-array-methods/062-min.md)
     * [061. max](learning/ruby-array-methods/061-max.md)
     * [060. map](learning/ruby-array-methods/060-map.md)
     * [059. length](learning/ruby-array-methods/059-length.md)

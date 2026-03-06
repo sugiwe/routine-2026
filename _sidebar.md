@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-06](daily/2026-03-06.md)
     * [2026-03-05](daily/2026-03-05.md)
     * [2026-03-04](daily/2026-03-04.md)
     * [2026-03-03](daily/2026-03-03.md)
@@ -74,6 +75,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [065. ユーザーの操作に対して0.1秒以内に反応を返す (Response In 0.1 Sec)](learning/sociomedia-hig/065-response-in-0-1-sec.md)
     * [064. トランジションは両方向につける (Reversal Transitions)](learning/sociomedia-hig/064-reversal-transitions.md)
     * [063. 画面の変化をアニメーションで表す (Animate Screen Transitions)](learning/sociomedia-hig/063-animate-screen-transitions.md)
     * [062. 回答の先送り (Deferred Choices)](learning/sociomedia-hig/062-deferred-choices.md)
@@ -140,6 +142,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [065. one?](learning/ruby-array-methods/065-one.md)
     * [064. none?](learning/ruby-array-methods/064-none.md)
     * [063. minmax](learning/ruby-array-methods/063-minmax.md)
     * [062. min](learning/ruby-array-methods/062-min.md)

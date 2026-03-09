@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-09](daily/2026-03-09.md)
     * [2026-03-08](daily/2026-03-08.md)
     * [2026-03-07](daily/2026-03-07.md)
     * [2026-03-06](daily/2026-03-06.md)
@@ -77,6 +78,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [068. アイコンのモチーフは特定の文化に依存させない (Culturally Independent Icon Motifs)](learning/sociomedia-hig/068-culturally-independent-icon-motifs.md)
     * [067. プログレッシブ・ディスクロージャ (Progressive Disclosure)](learning/sociomedia-hig/067-progressive-disclosure.md)
     * [066. 操作の近くでフィードバックする (Feedback Near The Operation)](learning/sociomedia-hig/066-feedback-near-the-operation.md)
     * [065. ユーザーの操作に対して0.1秒以内に反応を返す (Response In 0.1 Sec)](learning/sociomedia-hig/065-response-in-0-1-sec.md)
@@ -146,6 +148,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [068. prepend](learning/ruby-array-methods/068-prepend.md)
     * [067. pop](learning/ruby-array-methods/067-pop.md)
     * [066. pack](learning/ruby-array-methods/066-pack.md)
     * [065. one?](learning/ruby-array-methods/065-one.md)

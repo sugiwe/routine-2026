@@ -20,7 +20,7 @@ prepend(*objects) → self
 # Prepends the given objects to self:
 # 指定されたオブジェクトを自身の先頭に追加します:
 a = [:foo, 'bar', 2]
-a.unshift(:bam, :bat) # => [:bam, :bat, :foo, "bar", 2]
+a.prepend(:bam, :bat) # => [:bam, :bat, :foo, "bar", 2]
 
 # Related: Array#shift; see also Methods for Assigning.
 # Alias for: unshift
@@ -88,13 +88,13 @@ first = stack.shift     # 先頭から取り出し
 
 ### 関連メソッドとの比較
 
-| メソッド | 機能 | 位置 | エイリアス |
-|---------|------|------|-----------|
-| `prepend` | 追加（破壊的） | 先頭 | `unshift` |
-| `append` | 追加（破壊的） | 末尾 | `push` |
-| `shift` | 取り出し（破壊的） | 先頭 | - |
-| `pop` | 取り出し（破壊的） | 末尾 | - |
-| `insert` | 任意位置に挿入 | 指定位置 | - |
+| メソッド  | 機能               | 位置     | エイリアス |
+| --------- | ------------------ | -------- | ---------- |
+| `prepend` | 追加（破壊的）     | 先頭     | `unshift`  |
+| `append`  | 追加（破壊的）     | 末尾     | `push`     |
+| `shift`   | 取り出し（破壊的） | 先頭     | -          |
+| `pop`     | 取り出し（破壊的） | 末尾     | -          |
+| `insert`  | 任意位置に挿入     | 指定位置 | -          |
 
 ### パフォーマンスの考慮事項
 

@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-12](daily/2026-03-12.md)
     * [2026-03-11](daily/2026-03-11.md)
     * [2026-03-10](daily/2026-03-10.md)
     * [2026-03-09](daily/2026-03-09.md)
@@ -80,6 +81,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [071. 直観的より慣用的に (Idiomatic, Rather Than Intuitive)](learning/sociomedia-hig/071-idiomatic-rather-than-intuitive.md)
     * [070. ◯（マル）✕（バツ）△（サンカク）等の記号を安易に使わない (Don't Use ◯ / ✕ / △ Symbols Without Care)](learning/sociomedia-hig/070-dont-use-symbols-without-care.md)
     * [069. 多言語化を想定したUIではラベルの長さの違いを考慮する (Consider Label Length For Multilingualization)](learning/sociomedia-hig/069-multilingual-label-length.md)
     * [068. アイコンのモチーフは特定の文化に依存させない (Culturally Independent Icon Motifs)](learning/sociomedia-hig/068-culturally-independent-icon-motifs.md)
@@ -152,6 +154,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [071. rassoc](learning/ruby-array-methods/071-rassoc.md)
     * [070. push](learning/ruby-array-methods/070-push.md)
     * [069. product](learning/ruby-array-methods/069-product.md)
     * [068. prepend](learning/ruby-array-methods/068-prepend.md)

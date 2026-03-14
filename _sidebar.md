@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-14](daily/2026-03-14.md)
     * [2026-03-13](daily/2026-03-13.md)
     * [2026-03-12](daily/2026-03-12.md)
     * [2026-03-11](daily/2026-03-11.md)
@@ -82,6 +83,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [073. メニュー項目の位置を変化させない (Don't Change The Position Of Menu Items)](learning/sociomedia-hig/073-dont-change-menu-position.md)
     * [072. 肯定／否定ボタンの順序はプラットフォームのルールに従う (Follow The Platform Rules On Button Order)](learning/sociomedia-hig/072-follow-platform-rules-on-button-order.md)
     * [071. 直観的より慣用的に (Idiomatic, Rather Than Intuitive)](learning/sociomedia-hig/071-idiomatic-rather-than-intuitive.md)
     * [070. ◯（マル）✕（バツ）△（サンカク）等の記号を安易に使わない (Don't Use ◯ / ✕ / △ Symbols Without Care)](learning/sociomedia-hig/070-dont-use-symbols-without-care.md)
@@ -156,6 +158,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [073. repeated_combination](learning/ruby-array-methods/073-repeated_combination.md)
     * [072. reject](learning/ruby-array-methods/072-reject.md)
     * [071. rassoc](learning/ruby-array-methods/071-rassoc.md)
     * [070. push](learning/ruby-array-methods/070-push.md)

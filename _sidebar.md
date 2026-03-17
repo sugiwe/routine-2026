@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-17](daily/2026-03-17.md)
     * [2026-03-16](daily/2026-03-16.md)
     * [2026-03-15](daily/2026-03-15.md)
     * [2026-03-14](daily/2026-03-14.md)
@@ -85,6 +86,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [076. 空間的に記憶できるようにする (Spatial Memory)](learning/sociomedia-hig/076-spatial-memory.md)
     * [075. 錯視を考慮する (Optical Illusions)](learning/sociomedia-hig/075-optical-illusions.md)
     * [074. ハイライト表現は構成要素をひとつだけ変化させる (Highlight By Changing Only One Element)](learning/sociomedia-hig/074-highlight-by-changing-only-one-element.md)
     * [073. メニュー項目の位置を変化させない (Don't Change The Position Of Menu Items)](learning/sociomedia-hig/073-dont-change-menu-position.md)
@@ -162,6 +164,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [076. reverse](learning/ruby-array-methods/076-reverse.md)
     * [075. replace](learning/ruby-array-methods/075-replace.md)
     * [074. repeated_permutation](learning/ruby-array-methods/074-repeated_permutation.md)
     * [073. repeated_combination](learning/ruby-array-methods/073-repeated_combination.md)

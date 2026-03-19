@@ -80,7 +80,7 @@ enum = [1, 2, 3, 4, 5].rfind
 enum.class  # => Enumerator
 
 # 後でブロックを渡すことができる
-enum.each {|element| element.even?}  # => 4
+enum.find {|element| element.even?}  # => 4
 ```
 
 ### ユースケース
@@ -119,7 +119,15 @@ last_completed = tasks.rfind {|task| task[:status] == "completed"}
 
 #### 1. `find_last` との関係
 
-Ruby の一部のバージョンでは、`rfind` の代わりに `find_last` というメソッド名が使われている場合があります。互換性に注意が必要です。
+`rfind` は `find_last` のエイリアスです。`find_last` は Ruby 2.7 で導入されたメソッドで、`rfind` はそのエイリアスとして提供されています。
+
+```ruby
+# 以下は同じ動作
+[1, 2, 3, 4, 5].find_last {|x| x.even?}  # => 4
+[1, 2, 3, 4, 5].rfind {|x| x.even?}      # => 4
+```
+
+古いバージョンの Ruby（2.7 未満）との互換性を考慮する必要がある場合は、`reverse.find` を使用するのが安全です。
 
 #### 2. パフォーマンス
 

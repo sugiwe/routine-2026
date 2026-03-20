@@ -116,11 +116,23 @@ fruits.rindex('apple')  # => 4
    - インデックス 0 と `nil` を区別する必要がある
 
 ```ruby
+arr = ['a', 'b', 'c', 'b']
+value = 'b'
+result = arr.rindex(value)
+if result
+  puts "Found at index #{result}"  # => Found at index 3
+else
+  puts "'#{value}' not found"
+end
+
+# 見つからない場合
+arr = ['a', 'b', 'c']
+value = 'd'
 result = arr.rindex(value)
 if result
   puts "Found at index #{result}"
 else
-  puts "Not found"
+  puts "'#{value}' not found"  # => 'd' not found
 end
 ```
 
@@ -128,8 +140,9 @@ end
 
 - `index` - 最初の一致を探す（順方向）
 - `find_index` - `index` のエイリアス
-- `rfind` - （Ruby の一部のバージョンで利用可能）最後の要素を返す
-- `reverse.index` - 配列を反転してから index（非効率）
+- `rfind` - 条件に一致する最後の要素を返す（Ruby 3.4+）。`rindex` はインデックスを返すが、`rfind` は要素自体を返す
+- `reverse.find` - 配列を反転してから `find` を呼ぶ方法（非効率）
+- `arr[arr.rindex(...)]` - `rindex` で位置を取得してから要素にアクセス
 
 ### 実践的な例
 

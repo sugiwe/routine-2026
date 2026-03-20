@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-20](daily/2026-03-20.md)
     * [2026-03-19](daily/2026-03-19.md)
     * [2026-03-18](daily/2026-03-18.md)
     * [2026-03-17](daily/2026-03-17.md)
@@ -88,6 +89,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [079. ジェスチャはコマンド式ではなく直接操作式にする (Gesture For Direct Manipulation Rather Than Triggering Command)](learning/sociomedia-hig/079-gesture-for-direct-manipulation.md)
     * [078. タッチ操作する要素の大きさは 7mm 以上にする (7mm Or Larger For Touch)](learning/sociomedia-hig/078-7mm-or-larger-for-touch.md)
     * [077. プロスペクティブメモリー (Prospective Memory)](learning/sociomedia-hig/077-prospective-memory.md)
     * [076. 空間的に記憶できるようにする (Spatial Memory)](learning/sociomedia-hig/076-spatial-memory.md)
@@ -168,6 +170,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [079. rindex](learning/ruby-array-methods/079-rindex.md)
     * [078. rfind](learning/ruby-array-methods/078-rfind.md)
     * [077. reverse_each](learning/ruby-array-methods/077-reverse-each.md)
     * [076. reverse](learning/ruby-array-methods/076-reverse.md)

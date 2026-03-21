@@ -98,13 +98,18 @@ slides = ['slide1', 'slide2', 'slide3']
 slides = slides.rotate  # 次のスライドへ
 ```
 
-#### 3. キューの実装
+#### 3. 循環バッファ
 
-先頭要素を末尾に移動させることで、簡易的なキューを実装できます。
+先頭の要素を処理した後、再び列の末尾に戻すような循環的な処理を実装できます。要素が消費されずに循環する点が、通常のキュー（FIFO）とは異なります。
 
 ```ruby
-queue = [1, 2, 3, 4]
-queue = queue.rotate  # [2, 3, 4, 1]
+tasks = ['task A', 'task B', 'task C']
+
+# 先頭のタスクを処理
+current_task = tasks.first  # => "task A"
+
+# 処理したタスクを末尾に移動させて次のタスクへ
+tasks = tasks.rotate  # => ["task B", "task C", "task A"]
 ```
 
 ### 注意点

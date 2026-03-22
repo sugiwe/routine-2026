@@ -20,7 +20,7 @@ sample(n = nil, random: Random) → element or array
 
 ### 第一印象のメモ
 
-`.sample(a.size`は`shuffle`と同じことかな、おもろい
+`.sample(a.size)`は`shuffle`と同じことかな、おもろい
 
 ### コード例
 
@@ -51,11 +51,11 @@ a.sample(6) # => [9, 6, 0, 3, 1, 4]
 # May return duplicates in self:
 # 自身の中に重複が含まれる場合があります。
 a = [1, 1, 1, 2, 2, 3]
-a.sample(a.size) # => [1, 1, 3, 2, 1, 1]
+a.sample(a.size) # => [1, 2, 1, 3, 1, 2]
 
 # Returns no more than a.size elements (because no new duplicates are introduced):
 # a.size以下の要素を返します（新しい重複が生成されることはないため）。
-a.sample(50) # => [6, 4, 1, 8, 5, 9, 0, 2, 3, 7]
+a.sample(50) # => [2, 1, 1, 3, 2, 1]
 
 # The object given with the keyword argument random is used as the random number generator:
 # キーワード引数「random」に指定されたオブジェクトが、乱数生成器として使用されます。

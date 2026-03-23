@@ -66,7 +66,10 @@ arr.filter {|a| a > 3}  # => [4, 5, 6]（同じ結果）
 
 ```ruby
 [1, 2, 3].select {|n| n > 10}  # => []
-[1, 2, 3].select               # => #<Enumerator: ...>
+
+# ブロックなしの場合、Enumeratorを返す
+enumerator = [1, 2, 3].select
+enumerator.select(&:even?)  # => [2]
 ```
 
 ### ユースケース

@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-24](daily/2026-03-24.md)
     * [2026-03-23](daily/2026-03-23.md)
     * [2026-03-22](daily/2026-03-22.md)
     * [2026-03-21](daily/2026-03-21.md)
@@ -92,6 +93,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [083. 単純なものは単純なままに (Keep Simple Things Simple)](learning/sociomedia-hig/083-keep-simple-things-simple.md)
     * [082. モバイルでは包括的より階層的に (Hierarchical Rather Than Comprehensive For Mobile)](learning/sociomedia-hig/082-hierarchical-rather-than-comprehensive-for-mobile.md)
     * [081. 左が戻るで右が進む (Left Goes Back, Right Goes Forward)](learning/sociomedia-hig/081-left-goes-back-right-goes-forward.md)
     * [080. ドリルダウンは上→下、左→右 (Top-Bottom, Left-Right Drilldown Orientation)](learning/sociomedia-hig/080-top-bottom-left-right-drilldown-orientation.md)
@@ -176,6 +178,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [083. shelljoin](learning/ruby-array-methods/083-shelljoin.md)
     * [082. select](learning/ruby-array-methods/082-select.md)
     * [081. sample](learning/ruby-array-methods/081-sample.md)
     * [080. rotate](learning/ruby-array-methods/080-rotate.md)

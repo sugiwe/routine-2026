@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-25](daily/2026-03-25.md)
     * [2026-03-24](daily/2026-03-24.md)
     * [2026-03-23](daily/2026-03-23.md)
     * [2026-03-22](daily/2026-03-22.md)
@@ -93,6 +94,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [084. 色やフォントを使いすぎない (Few Colors And Fonts)](learning/sociomedia-hig/084-few-colors-and-fonts.md)
     * [083. 単純なものは単純なままに (Keep Simple Things Simple)](learning/sociomedia-hig/083-keep-simple-things-simple.md)
     * [082. モバイルでは包括的より階層的に (Hierarchical Rather Than Comprehensive For Mobile)](learning/sociomedia-hig/082-hierarchical-rather-than-comprehensive-for-mobile.md)
     * [081. 左が戻るで右が進む (Left Goes Back, Right Goes Forward)](learning/sociomedia-hig/081-left-goes-back-right-goes-forward.md)
@@ -178,6 +180,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [084. shift](learning/ruby-array-methods/084-shift.md)
     * [083. shelljoin](learning/ruby-array-methods/083-shelljoin.md)
     * [082. select](learning/ruby-array-methods/082-select.md)
     * [081. sample](learning/ruby-array-methods/081-sample.md)

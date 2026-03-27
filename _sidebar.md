@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年3月**
+    * [2026-03-27](daily/2026-03-27.md)
     * [2026-03-26](daily/2026-03-26.md)
     * [2026-03-25](daily/2026-03-25.md)
     * [2026-03-24](daily/2026-03-24.md)
@@ -95,6 +96,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [086. カスタマイズ機能に頼らない (Less Preferences)](learning/sociomedia-hig/086-less-preferences.md)
     * [085. 整然とレイアウトする (Layout Tidily)](learning/sociomedia-hig/085-layout-tidily.md)
     * [084. 色やフォントを使いすぎない (Few Colors And Fonts)](learning/sociomedia-hig/084-few-colors-and-fonts.md)
     * [083. 単純なものは単純なままに (Keep Simple Things Simple)](learning/sociomedia-hig/083-keep-simple-things-simple.md)
@@ -182,6 +184,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [086. size](learning/ruby-array-methods/086-size.md)
     * [085. shuffle](learning/ruby-array-methods/085-shuffle.md)
     * [084. shift](learning/ruby-array-methods/084-shift.md)
     * [083. shelljoin](learning/ruby-array-methods/083-shelljoin.md)

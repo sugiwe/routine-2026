@@ -131,6 +131,7 @@ puts "Active users: #{users.size}" unless users.empty?
 #### 2. ページネーション
 
 ```ruby
+products = Product.all.to_a  # 既存の products 配列を想定
 items_per_page = 20
 total_items = products.size
 total_pages = (total_items / items_per_page.to_f).ceil

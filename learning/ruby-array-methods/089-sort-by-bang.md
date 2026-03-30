@@ -132,10 +132,17 @@ numbers = [3, 1, 4, 1, 5]
 numbers.sort_by! { |n| -n }
 # => [5, 4, 3, 1, 1]
 
-# 文字列の場合は reverse を使う
+# 文字列を降順（逆アルファベット順）にする場合
+# ソート後に reverse! を使用
+words = ['apple', 'pie', 'zoo']
+words.sort_by! { |w| w }
+words.reverse!
+# => ["zoo", "pie", "apple"]
+
+# 注意: w.reverse を使うと接尾辞順になる（意図した結果にならない）
 words = ['apple', 'pie', 'zoo']
 words.sort_by! { |w| w.reverse }
-# 逆アルファベット順
+# => ["pie", "apple", "zoo"]  (逆から比較: 'eip' < 'elppa' < 'ooz')
 ```
 
 ### 関連メソッド

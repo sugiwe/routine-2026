@@ -4,6 +4,8 @@
 * [プロジェクトガイド](CLAUDE.md)
 
 * **日次記録**
+  * **2026年4月**
+    * [2026-04-01](daily/2026-04-01.md)
   * **2026年3月**
     * [2026-03-31](daily/2026-03-31.md)
     * [2026-03-30](daily/2026-03-30.md)
@@ -100,6 +102,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [091. ゲームを持ち込まない (Don't Bring Games)](learning/sociomedia-hig/091-dont-bring-games.md)
     * [090. UIをロックしない (Don't Lock The UIs)](learning/sociomedia-hig/090-dont-lock-the-uis.md)
     * [089. ユーザーを教育するのではなくユーザーが学習できるようにする (Let Users Learn, Don't Educate Them)](learning/sociomedia-hig/089-let-users-learn-dont-educate-them.md)
     * [088. ユーザーが自分なりの方法で作業を遂行できまたそれを改善できるようにする (User Can Perform And Improve In Their Way)](learning/sociomedia-hig/088-user-can-perform-and-improve-in-their-way.md)
@@ -192,6 +195,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [091. take](learning/ruby-array-methods/091-take.md)
     * [090. sum](learning/ruby-array-methods/090-sum.md)
     * [089. sort_by!](learning/ruby-array-methods/089-sort-by-bang.md)
     * [088. sort](learning/ruby-array-methods/088-sort.md)

@@ -52,7 +52,7 @@ arr.take(0)   # => []  # 空配列を返す
 arr.take(2.9) # => [1, 2]  # 整数部分のみ使用
 
 # 負の値（エラー）
-arr.take(-1)  # ArgumentError: negative array size
+arr.take(-1)  # ArgumentError: attempt to take negative size
 ```
 
 ### 関連メソッドとの比較
@@ -127,6 +127,19 @@ safe_items = items.take(user_input)  # => [1, 2, 3]  # エラーにならない
 # 無限のシーケンスから最初の5つを取得
 (1..Float::INFINITY).lazy.select(&:even?).take(5).to_a
 # => [2, 4, 6, 8, 10]
+```
+
+**なぜ `.lazy` が必要か**:
+- `.lazy` がないと、`select(&:even?)` が無限ループになる（無限の範囲全体に対して評価しようとするため）
+- 遅延評価により、`take(5)` が呼ばれるまで `select` の実行が保留される
+- 必要な5つの偶数が見つかった時点で処理が終了するため、効率的に動作する
+
+```ruby
+# NG: 無限ループになる
+# (1..Float::INFINITY).select(&:even?).take(5)
+
+# OK: 遅延評価で効率的に動作
+(1..Float::INFINITY).lazy.select(&:even?).take(5).to_a
 ```
 
 ### まとめ

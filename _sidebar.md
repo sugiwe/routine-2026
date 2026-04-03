@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年4月**
+    * [2026-04-03](daily/2026-04-03.md)
     * [2026-04-02](daily/2026-04-02.md)
     * [2026-04-01](daily/2026-04-01.md)
   * **2026年3月**
@@ -103,6 +104,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [093. ホットスポットを広げる (Expand Hotspots)](learning/sociomedia-hig/093-expand-hotspots.md)
     * [092. 動かしたままに動くのではなく動かしたいように動く (Move As User Want, Not As User Move)](learning/sociomedia-hig/092-move-as-user-want-not-as-user-move.md)
     * [091. ゲームを持ち込まない (Don't Bring Games)](learning/sociomedia-hig/091-dont-bring-games.md)
     * [090. UIをロックしない (Don't Lock The UIs)](learning/sociomedia-hig/090-dont-lock-the-uis.md)
@@ -197,6 +199,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [093. to_a](learning/ruby-array-methods/093-to-a.md)
     * [092. take_while](learning/ruby-array-methods/092-take-while.md)
     * [091. take](learning/ruby-array-methods/091-take.md)
     * [090. sum](learning/ruby-array-methods/090-sum.md)

@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年4月**
+    * [2026-04-06](daily/2026-04-06.md)
     * [2026-04-05](daily/2026-04-05.md)
     * [2026-04-04](daily/2026-04-04.md)
     * [2026-04-03](daily/2026-04-03.md)
@@ -106,6 +107,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [096. 色に依存させない (Avoid Reliance On Color)](learning/sociomedia-hig/096-avoid-reliance-on-color.md)
     * [095. 文字の拡大に対応する (Support Text Enlargement)](learning/sociomedia-hig/095-support-text-enlargement.md)
     * [094. 音声読み上げに対応する (Support Voice Reading)](learning/sociomedia-hig/094-support-voice-reading.md)
     * [093. ホットスポットを広げる (Expand Hotspots)](learning/sociomedia-hig/093-expand-hotspots.md)
@@ -203,6 +205,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [096. transpose](learning/ruby-array-methods/096-transpose.md)
     * [095. to_s](learning/ruby-array-methods/095-to-s.md)
     * [094. to_h](learning/ruby-array-methods/094-to-h.md)
     * [093. to_a](learning/ruby-array-methods/093-to-a.md)

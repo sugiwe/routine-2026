@@ -145,7 +145,7 @@ y_coords # => [2, 4, 6]
 
 - `Array#zip`: 複数の配列を組み合わせる（transposeに似た動作）
 - `Array#flatten`: ネストした配列を平坦化する
-- `Array#each_slice`: 配列を指定サイズのチャンクに分割（逆方向の操作）
+- `Array#each_slice`: 配列を指定サイズのチャンクに分割（多次元配列の作成に利用）
 
 ### 数学的背景
 
@@ -153,9 +153,16 @@ y_coords # => [2, 4, 6]
 
 性質：
 - `(A^T)^T = A`（転置の転置は元に戻る）
-- Ruby でも同様：`a.transpose.transpose == a`
+- Ruby でも同様（空でない矩形配列の場合）：`a.transpose.transpose == a`
 
 ```ruby
+# 空でない矩形配列の場合、転置の転置は元に戻る
 a = [[1, 2], [3, 4]]
 a.transpose.transpose == a  # => true
+
+# 注意：空配列を含む場合は成り立たない
+b = [[]]
+b.transpose           # => []
+b.transpose.transpose # => []
+b.transpose.transpose == b  # => false
 ```

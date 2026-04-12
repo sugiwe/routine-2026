@@ -5,6 +5,7 @@
 
 * **日次記録**
   * **2026年4月**
+    * [2026-04-10](daily/2026-04-10.md)
     * [2026-04-09](daily/2026-04-09.md)
     * [2026-04-08](daily/2026-04-08.md)
     * [2026-04-07](daily/2026-04-07.md)
@@ -110,6 +111,7 @@
 
 * **学習ノート**
   * **Sociomedia HIG**
+    * [100. 人類にポジティブな影響を与える](learning/sociomedia-hig/100-positive-impact-on-humanity.md)
     * [099. デザインは新しい意味を提案する](learning/sociomedia-hig/099-design-proposes-new-meaning.md)
     * [098. ユーザーイリュージョンをもたらす (User Illusion)](learning/sociomedia-hig/098-user-illusion.md)
     * [097. ユーザーが自分のペースで作業できるようにする (Allow Users To Work At Their Own Pace)](learning/sociomedia-hig/097-allow-users-to-work-at-their-own-pace.md)
@@ -211,6 +213,7 @@
     * [001. Simple](learning/sociomedia-hig/001-simple.md)
 
   * **Ruby Array Methods**
+    * [100. values_at](learning/ruby-array-methods/100-values-at.md)
     * [099. unshift](learning/ruby-array-methods/099-unshift.md)
     * [098. uniq](learning/ruby-array-methods/098-uniq.md)
     * [097. union](learning/ruby-array-methods/097-union.md)

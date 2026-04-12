@@ -16,22 +16,17 @@
 
 ## 学習
 
-### Sociomedia ヒューマンインターフェース ガイドライン
+### SQL ドリル
 
-- [ ] 今日のトピック:
-- URL:
+- [ ] 今日の進捗:
+- メモ:
+
+### Writebook コードリーディング
+
+- [ ] 今日読んだ部分:
 - メモ:
 - 詳細ノート:
 
-### Ruby 4.0 Documentation - Array Instance Methods
+## 今日の振り返り
 
-- [ ] 今日のメソッド:
-- URL: https://docs.ruby-lang.org/en/4.0/Array.html
-- メモ:
-- 詳細ノート:
-
-#### コード例・補足
-
-```ruby
-#
-```
+（任意：今日の気づきや感想）

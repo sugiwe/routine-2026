@@ -1,5 +1,8 @@
 <!-- docs/_sidebar.md -->
 
+> **🔒 このサイトは 2026年4月10日時点でアーカイブされました**
+> アーカイブ内容: Sociomedia HIG（100/100 完了）、Ruby Array Methods（100 完了）
+
 * [ホーム](/)
 * [プロジェクトガイド](CLAUDE.md)
 

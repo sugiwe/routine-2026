@@ -323,7 +323,7 @@ learning/writebook/YYYY-MM-DD-{トピック}.md
    ```bash
    git add daily/2026-04-11.md
    # Writebook の詳細ノートも作成した場合は追加
-   git add learning/writebook/2026-04-11-post-creation.md
+   git add learning/writebook/2026-04-11-*.md
    git add learning/writebook/README.md
 
    git commit -m "2026-04-11 の日次記録を追加"
